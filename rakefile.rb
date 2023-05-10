@@ -21,6 +21,7 @@ Rakish::CppProject.new(
 	addPublicIncludes('include/artd/*.h');
 
     addSourceFiles(
+        'src/vecmath.cpp'
     );
 
     setupCppConfig :targetType =>'DLL' do |cfg|

@@ -1,4 +1,8 @@
-#include "artd/jlib-base"
+#ifndef __artd_vecmath_base_h
+#define __artd_vecmath_base_h
+
+
+#include "artd/jlib_base.h"
 
 // TODO: we need to handle this for building either static or dll libraries !!
 
@@ -10,4 +14,6 @@
     #endif
 #endif
 
-#include "glm/glm.h"
+#include "glm/glm.hpp"
+
+#endif // __artd_vecmath_base_h
