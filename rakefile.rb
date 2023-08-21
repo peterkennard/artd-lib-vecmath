@@ -21,7 +21,8 @@ Rakish::CppProject.new(
 	addPublicIncludes('include/artd/*.h');
 
     addSourceFiles(
-        'src/vecmath.cpp'
+        'src/vecmath.cpp',
+        'src/glmLogIO.cpp'
     );
 
     setupCppConfig :targetType =>'DLL' do |cfg|

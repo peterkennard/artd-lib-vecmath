@@ -2,6 +2,7 @@
 #define __artd_vecmath_h
 
 #include "artd/vecmath_base.h"
+#include "artd/glmLogIO.h"
 
 ARTD_BEGIN
 
