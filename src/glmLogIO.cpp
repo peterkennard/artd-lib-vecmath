@@ -26,6 +26,11 @@ std::ostream& operator<<(std::ostream& os, const glm::vec3 &v) {
 	return(os);
 }
 
+std::ostream& operator<<(std::ostream& os, const glm::dvec3 &v) {
+	os << "{ " << v.x << ",\t" << v.y << ",\t" << v.z << " }";
+	return(os);
+}
+
 std::ostream& operator<<(std::ostream& os, const glm::vec4 &v) {
 	os << "{ " << v.x << ",\t" << v.y << ",\t" << v.z << ",\t" << v.w << " }";
 	return(os);

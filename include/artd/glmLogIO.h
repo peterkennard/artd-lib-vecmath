@@ -12,6 +12,8 @@ ARTD_API_LIB_VECMATH std::ostream& operator<<(std::ostream& os, const glm::uvec2
 ARTD_API_LIB_VECMATH std::ostream& operator<<(std::ostream& os, const glm::vec2 &v);
 
 ARTD_API_LIB_VECMATH std::ostream& operator<<(std::ostream& os, const glm::vec3 &v);
+ARTD_API_LIB_VECMATH std::ostream& operator<<(std::ostream& os, const glm::dvec3 &v);
+
 ARTD_API_LIB_VECMATH std::ostream& operator<<(std::ostream& os, const glm::vec4 &v);
 
 ARTD_API_LIB_VECMATH std::ostream& operator<<(std::ostream& os, const glm::mat3 &v);
