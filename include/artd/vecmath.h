@@ -3,15 +3,16 @@
 
 #include "artd/vecmath_base.h"
 #include "artd/glmLogIO.h"
+#include "artd/Matrix4f.h"
 
 ARTD_BEGIN
 
 /**
- *  orthonormalize the 3x3 part of the incomming matrix (vectors)
+ *  orthonormalize the 3x3 part of the incoming matrix (vectors)
  *  and makes sure they are orthogonal.
  *  return the result, aseme as glm::orthonormalize for a mat3
  */
-ARTD_API_LIB_VECMATH glm::mat4 orthonormalize(const glm::mat4 &M);
+ARTD_API_LIB_VECMATH Matrix4f orthonormalize(const glm::mat4 &M);
 
 ARTD_END
 
