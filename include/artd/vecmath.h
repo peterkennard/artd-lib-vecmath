@@ -2,6 +2,10 @@
 #define __artd_vecmath_h
 
 #include "artd/vecmath_base.h"
+
+#include <glm/glm.hpp> // all types inspired from GLSL
+#include <glm/ext.hpp>
+
 #include "artd/glmLogIO.h"
 #include "artd/Matrix4f.h"
 
