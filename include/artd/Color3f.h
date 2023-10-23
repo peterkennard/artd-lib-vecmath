@@ -12,7 +12,7 @@ class ARTD_API_LIB_VECMATH Color3f
     typedef glm::vec3 super;
 public:
     static INL float byteToFloat1(int c) {
-        return(((float)(c & 0x0FF))*(1.0f/255.0f));
+        return(((float)((uint8_t)c))*(1.0f/255.0f));
     }
 
     INL Color3f() {
